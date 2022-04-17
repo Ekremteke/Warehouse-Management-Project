@@ -7,11 +7,11 @@ public class JavaGitHubPractice {
         System.out.println("Some of the project may Turkish");
 //Bu proje: Depoda bulunan "kalem" malzemesinin, giris cikis kayitlarinin tutuldugu bir depo programidir.
 
-       /*Sistemden cikis yapmadiginiz surece, tekrar Run yapmaniza gerek kalmadan 3 hatali giris yapabilirsiniz.
-       Giris yaptiktan sonra, sistemden cikis yapana kadar malzeme giris cikisi yapabilirsiniz.
+       /*As long as you exit the system, you can make 3 incorrect entries that you need to Run again.
+       After logging in, you can enter material until you log out of the system.
 
-       Kullanici Adi : Ekrem
-       Parola : Java
+       Kullanici Adi (User Name) : Ekrem
+       Parola (Password) : Java
        */
 
         String sys_kul_adi = "Ekrem";
@@ -26,10 +26,10 @@ public class JavaGitHubPractice {
 
             Scanner scan = new Scanner(System.in);
 
-            System.out.println("Kullanici Adi: ");
+            System.out.println("Kullanici Adi (User Name): ");
             String kullanici_adi = scan.nextLine();
 
-            System.out.println("Parola: ");
+            System.out.println("Parola (Password): ");
             String kul_parola = scan.nextLine();
 
             if (!(sys_kul_adi.equals(kullanici_adi)) && !(parola.equals(kul_parola))) {
